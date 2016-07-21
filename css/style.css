@@ -8,19 +8,32 @@ html, body{
  h1, h2, h3, h4 {
    font-family: "Bree Serif", Helvetica, Arial, sans-serif;
  }
- h5, h6 {
-   font-family: "Lustria", Helvetica, Arial, sans-serif; 
-}
-
  h2 {
    font-size:28px;
    font-weight: normal;
-   margin-bottom: 5px;
+   margin-bottom: 0px;
+   margin-top: 80px;
+   text-align: center;
+}
+ h3 {
+    margin: 0 0 0px 0;
+    font-size: 22px;
  }
+ h5 {
+  font-family:  "Lustria", Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: 10px 0 40px 0 ;
+ }
+ h6 {
+   font-family: "Lustria", Helvetica, Arial, sans-serif;
+   margin: 10px 0px 10px 0px; 
+ }
+ 
  p {
    font-size:16px;
    line-height: 19px;
    font-weight: 100;
+   margin: 10px 0 10px 0;
  }
 
   /* GRID */
@@ -75,7 +88,7 @@ html, body{
 
 
 
-/* HEADER */
+/* HEADER-HERO */
  header {
    color:#4A4A4A;
    background: #FFFCD5;
@@ -97,7 +110,7 @@ html, body{
  }
  header nav ul > li.btn-outline {
    padding:10px 15px;
-   border:2px solid #4A4A4A;
+   border:1px solid #4A4A4A;
    border-radius: 4px;
  }
  header nav ul > li.btn-outline:hover {
@@ -139,37 +152,58 @@ html, body{
     border-radius: 4px;
  }
   
-  header nav h3 {
-  margin: 0 20% 0 20%;
- }
+    header nav h3 {
+    margin: 0 20% 0 20%;
+   }
+    header nav .herobuttons ul {
+    margin: 10px 20% 10px 20%;
+    padding: 0px;
+    float: left;
+   }
+    header nav h4 {
+    margin: 10px 20% 0 20%;
+    color: #9B9B9B; 
+   }
+    header nav h4 a {
+    color: #4A4A4A;
+    text-decoration: none;
+   }
 
-  header nav .herobuttons ul {
-  margin: 10px 20% 10px 20%;
-  padding: 0px;
-  float: left;
- }
 
-  header nav h4 {
-  margin: 10px 20% 0 20%;
-  color: #9B9B9B;; 
- }
+  /* MAIN */
+  .uxwork ul li a {
+    margin-top: 20px;
+  }
+   .uxwork .container {
+    margin-bottom: 60px
+  }
 
-  header nav h4 a {
-  margin:;
-  color: #4A4A4A;
-  text-decoration: none;
+
+  /* ABOUT ME */
+  .aboutme {
+   color:#4A4A4A;
+   background: #FFFCD5;
+   background-image: 100%;
  }
+  .aboutme .container {
+    margin-bottom: 60px
+  }
+  .aboutme ul li img{
+    float: right;
+  }
 
 
 
  /* BUTTONS */
  .btn {
-   border-radius: 4px;
-   color:#FFFFFF;
-   font-weight: 700;
    text-decoration: none;
-   padding:10px 40px;
-   background: #2ECC71;
-   border: 2px solid #2ECC71;
-   box-shadow: 0px 2px 0px 0px #22894E;
+   list-style-type: none;
+   text-align: center;
+   padding:10px 15px;
+   border-radius: 4px;
+   border: 1px solid #4A4A4A;
+   color:#4A4A4A;
+   background: ;
+   box-shadow: 0px 0px 0px 0px #;
+
  }

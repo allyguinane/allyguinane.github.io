@@ -44,7 +44,7 @@ html, body{
    float:left;
    position:relative;
    min-height: 1px;
-   margin:0 2% 20px;
+   margin:0 2% 0 0;
  }
 
 /* Media Queries */
@@ -125,16 +125,34 @@ html, body{
   }
 
   header nav li.btn-outline {
+    text-decoration: none;
     list-style-type: none;
     display: inline-block;
-    margin:0 10px;
+    margin:0 20px 0 0;
     text-align: center;
     padding:10px 15px;
     border:1px solid #4A4A4A;
     border-radius: 4px;
-    text-decoration: none;
+
  }
   
+ header nav h3 {
+  margin: 0 20% 0 20%;
+ }
+
+header nav .herobuttons {
+  margin: 20px 20% 0 20%;
+}
+
+header nav h4 {
+  margin: 10px 20% 0 20%;
+  color: #9B9B9B;
+  text-decoration: none;
+  text-decoration-color: #4A4A4A !important; 
+
+}
+
+
 
 
 

@@ -112,19 +112,24 @@ html, body{
  }
 
 
- header nav .one-half img{
+  header nav .one-half img{
     display: block;
     margin: auto;
     width: 100%;
  }
- header nav .site-logo {
+  header nav .site-logo {
     display: block;
     margin: auto;
     width: 15%;
     padding: 100px 0 20px 0;
   }
 
-  header nav li.btn-outline {
+  header nav ul > li > a {
+   color:#4A4A4A;
+   text-decoration: none;
+ }
+
+  header nav li .btn-outline {
     text-decoration: none;
     list-style-type: none;
     display: inline-block;
@@ -133,50 +138,23 @@ html, body{
     padding:10px 15px;
     border:1px solid #4A4A4A;
     border-radius: 4px;
-
  }
   
- header nav h3 {
+  header nav h3 {
   margin: 0 20% 0 20%;
  }
 
-header nav .herobuttons {
+  header nav .herobuttons {
   margin: 20px 20% 0 20%;
-}
+ }
 
-header nav h4 {
+  header nav h4 {
   margin: 10px 20% 0 20%;
   color: #9B9B9B;
   text-decoration: none;
-  text-decoration-color: #4A4A4A !important; 
-
-}
-
-
-
-
-
-/* Not in use */
- header .hero {
-   text-align: center;
-   display:block;
-   position: relative;
+  text-decoration-color: #4A4A4A; 
  }
- header .hero h1 {
-   font-size:48px;
-   font-weight: normal;
-   margin:95px 0 0;
- }
- header .hero p {
-   font-size: 22px;
-   line-height: 26px;
-   font-weight: 100;
-   margin:10px 0 40px;
- }
- header .hero img {
-   display: block;
-   margin:3em auto 0;
- }
+
 
 
  /* BUTTONS */
@@ -185,7 +163,7 @@ header nav h4 {
    color:#FFFFFF;
    font-weight: 700;
    text-decoration: none;
-   padding:10px 30px;
+   padding:10px 40px;
    background: #2ECC71;
    border: 2px solid #2ECC71;
    box-shadow: 0px 2px 0px 0px #22894E;

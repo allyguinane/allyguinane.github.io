@@ -93,7 +93,7 @@ html, body{
  header nav ul > li {
    list-style-type: none;
    display: inline-block;
-   margin:0 10px;
+   margin:10px 20px 10px 0;
  }
  header nav ul > li.btn-outline {
    padding:10px 15px;
@@ -129,11 +129,10 @@ html, body{
    text-decoration: none;
  }
 
-  header nav li .btn-outline {
+  header nav ul .btn-outline {
     text-decoration: none;
     list-style-type: none;
     display: inline-block;
-    margin:0 20px 0 0;
     text-align: center;
     padding:10px 15px;
     border:1px solid #4A4A4A;
@@ -144,15 +143,21 @@ html, body{
   margin: 0 20% 0 20%;
  }
 
-  header nav .herobuttons {
-  margin: 20px 20% 0 20%;
+  header nav .herobuttons ul {
+  margin: 10px 20% 10px 20%;
+  padding: 0px;
+  float: left;
  }
 
   header nav h4 {
   margin: 10px 20% 0 20%;
-  color: #9B9B9B;
+  color: #9B9B9B;; 
+ }
+
+  header nav h4 a {
+  margin:;
+  color: #4A4A4A;
   text-decoration: none;
-  text-decoration-color: #4A4A4A; 
  }
 
 

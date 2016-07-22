@@ -33,7 +33,7 @@ html, body{
    font-size:16px;
    line-height: 19px;
    font-weight: 100;
-   margin: 10px 0 10px 0;
+   margin: 10px 0 20px 0;
  }
 
   /* GRID */
@@ -161,7 +161,7 @@ html, body{
     float: left;
    }
     header nav h4 {
-    margin: 10px 20% 0 20%;
+    margin: 10px 20% 20px 20%;
     color: #9B9B9B; 
    }
     header nav h4 a {
@@ -170,13 +170,26 @@ html, body{
    }
 
 
-  /* MAIN */
-  .uxwork ul li a {
-    margin-top: 20px;
+  /* UX WORK */
+  .uxwork {
+    padding: 0 10% 0 10%;
+  }
+
+  .uxwork ul{
+    list-style-type: none;
   }
    .uxwork .container {
     margin-bottom: 60px
   }
+  .uxwork ul li p {
+    padding: 0 0 10px 0;
+  }
+  .uxwork ul li a{
+    margin: 20px 0 20px 0;
+
+  }
+
+
 
 
   /* ABOUT ME */
@@ -188,10 +201,40 @@ html, body{
   .aboutme .container {
     margin-bottom: 60px
   }
+  .aboutme ul {
+    list-style-type: none;
+  }
   .aboutme ul li img{
     float: right;
+    padding-bottom: 10px;
   }
 
+
+  /* CONTACT */
+  .contact {
+   color:#4A4A4A;
+   background: #FFFCD5;
+   background-image: 100%;
+ }
+
+  /* FOOTER */
+  .footer {
+   color:#FFFFFF;
+   background: #9B9B9B;
+   font-family: Bree serif;
+ }
+  .footer ul {  
+    display: inline;
+    text-align: right;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0 10px 0 0;
+    color: #FFFFFF;
+
+  }
+   .footer img{
+    align-content: center;
+   }
 
 
  /* BUTTONS */
@@ -203,7 +246,5 @@ html, body{
    border-radius: 4px;
    border: 1px solid #4A4A4A;
    color:#4A4A4A;
-   background: ;
-   box-shadow: 0px 0px 0px 0px #;
 
  }

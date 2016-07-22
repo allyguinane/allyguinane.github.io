@@ -174,7 +174,6 @@ html, body{
   .uxwork {
     padding: 0 10% 0 10%;
   }
-
   .uxwork ul{
     list-style-type: none;
   }
@@ -186,6 +185,7 @@ html, body{
   }
   .uxwork ul li a{
     margin: 20px 0 20px 0;
+    display: block;
 
   }
 

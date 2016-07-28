@@ -215,6 +215,9 @@ html, body{
    background: #FFFCD5;
    background-image: 100%;
  }
+  .contact p {
+    text-align: center;
+  }
 
   /* FOOTER */
   .footer {

@@ -99,14 +99,16 @@ html, body{
  }
  header nav ul {
    display:inline;
-   text-align: right;
-   float:right;
-   margin:20px 0 20px 0;
+   margin: 20px 0 20px 50%;
  }
+
  header nav ul > li {
    list-style-type: none;
    display: inline-block;
    margin:10px 20px 10px 0;
+   font-family: Bree Serif;
+ }
+ header nav ul > li a {
  }
  header nav ul > li.btn-outline {
    padding:10px 15px;
@@ -156,8 +158,8 @@ html, body{
     margin: 0 13% 0 13%;
    }
     header nav .herobuttons ul {
-    margin: 10px 13% 10px 13%;
-    padding: 0px;
+    margin: 0 13% 0 0 ;
+    padding: 10px 13% 10px 13%;
     float: left;
    }
     header nav h4 {
@@ -189,7 +191,7 @@ html, body{
 
   }
   .uxwork ul li a{
-    margin: 20px 20% 20px 0;
+    margin: 10px 20% 40px 0;
     display: block;
 
   }
@@ -204,7 +206,7 @@ html, body{
    background-image: 100%;
  }
   .aboutme .container {
-    background: url(http://allyguinane.github.io/portfolio/images/GuinaneBW_01.png) no-repeat;
+    background: url(http://allyguinane.github.io/portfolio/images/GuinaneBW.png) no-repeat;
     background-size: cover;
     margin: 0;
   }
@@ -223,13 +225,28 @@ html, body{
   /* CONTACT */
   .contact {
    color:#4A4A4A;
-   background: #FFFCD5;
    background-image: 100%;
  }
   .contact p {
     text-align: center;
   }
+  .contact h4 {
+    text-align: center;
+  }
 
+  form {
+    text-align: center;
+  }
+  form button {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    border-color: #4A4A4A
+    margin: 10px 20% 10px 20%;
+
+  }
+  .talkforms {
+    margin: 0 0 20px 0;
+  }
 
 
   /* FOOTER */
@@ -244,14 +261,12 @@ html, body{
 
   .footer ul {
     list-style-type: none;
-    display: inline-block;
     text-decoration: none;
     padding: 0;
     margin: 0;
   }
   .footer ul li {
     display: inline-block;
-    text-align: center;
   }
   .social-links li {
     padding: 0 15px 0 0px;

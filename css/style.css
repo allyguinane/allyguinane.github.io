@@ -9,7 +9,7 @@ html, body{
    font-family: "Bree Serif", Helvetica, Arial, sans-serif;
  }
  h2 {
-   font-size:28px;
+   font-size:34px;
    font-weight: normal;
    margin-bottom: 0px;
    margin-top: 80px;
@@ -23,6 +23,7 @@ html, body{
   font-family:  "Lustria", Helvetica, Arial, sans-serif;
   text-align: center;
   margin: 10px 0 40px 0 ;
+  font-size: 18px;
  }
  h6 {
    font-family: "Lustria", Helvetica, Arial, sans-serif;
@@ -216,8 +217,7 @@ html, body{
   }
   .aboutme ul li img{
     float: right;
-    padding-bottom: 10px;
-    width: ;
+    padding-bottom: 40px;
   }
 
 

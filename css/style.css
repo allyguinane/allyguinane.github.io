@@ -223,6 +223,20 @@ html, body{
    background: #FFFCD5;
    padding-bottom: 80px;
  }
+ .contact .site-logo {
+    display: block;
+    margin: auto;
+    width: 12%;
+    padding: 60px 1% 0px 1%;
+  }
+.contact img {
+  display: block;
+  margin:auto;
+  width:70%;
+}
+  .contact h2 {
+    margin-top: 0px;
+  }
   .contact p {
     text-align: center;
   }
@@ -254,6 +268,7 @@ html, body{
   }
   .footer p {
     margin: 40px 0 40px 0;
+    text-align: center;
   }
   .icons {
     padding: 0 30px 0 0;

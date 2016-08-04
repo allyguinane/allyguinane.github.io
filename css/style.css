@@ -202,15 +202,10 @@ html, body{
 
   /* ABOUT ME */
   .aboutme {
+   background: url("../images/GuinaneBW.png"); top center no-repeat;
+   background-size: cover;
    color:#4A4A4A;
-   background: #FFFCD5;
-   background-image: 100%;
  }
-  .aboutme .container {
-    background: url(http://allyguinane.github.io/portfolio/images/GuinaneBW.png) no-repeat;
-    background-size: cover;
-    margin: 0;
-  }
 
   .aboutme ul {
     list-style-type: none;
@@ -225,7 +220,8 @@ html, body{
   /* CONTACT */
   .contact {
    color:#4A4A4A;
-   background-image: 100%;
+   background: #FFFCD5;
+   padding-bottom: 80px;
  }
   .contact p {
     text-align: center;
@@ -240,12 +236,12 @@ html, body{
   form button {
     background-color: #FFFFFF;
     border-radius: 4px;
-    border-color: #4A4A4A
-    margin: 10px 20% 10px 20%;
+    border-color: none;
+    margin: 10px 0 0 0;
 
   }
   .talkforms {
-    margin: 0 0 20px 0;
+    margin: 0 0 60px 0;
   }
 
 

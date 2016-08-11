@@ -37,6 +37,29 @@ html, body{
    margin: 10px 0 20px 0;
  }
 
+ /*Visibility*/
+ .mobile-show {
+  display: block !important;
+ }
+
+ .mobile-hide {
+  display: none !important;
+ }
+
+ @media (min-width: 992px) { 
+
+    .mobile-show {
+      display: none !important;
+    }
+
+
+    .mobile-hide {
+      display: block !important;
+    }
+ }
+
+
+
   /* GRID */
  .container {
    margin-right: auto;

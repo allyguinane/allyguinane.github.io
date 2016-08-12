@@ -298,34 +298,34 @@ html, body{
 
 
 /*Case Study 1*/
-#header_case {
-  background: #FFFCD5;
-  padding: 20px;
-}
+  #header_case {
+    background: #FFFCD5;
+    padding: 20px;
+  }
 
-.projectlist {
-  text-align: center;
-  list-style-type: none;
-  font-family: lustria;
-  color: #4A4A4A;
-  background-color: #FFFCD5;
-}
-.casestudy1body {
-  text-align: center;
-}
-.casestudy1body ul li {
-  text-align: center;
-  list-style-type: none;
-  color: #4A4A4A;
-}
+  .projectlist {
+    text-align: center;
+    list-style-type: none;
+    font-family: lustria;
+    color: #4A4A4A;
+    background-color: #FFFCD5;
+  }
+  .casestudy1body {
+    text-align: center;
+  }
+  .casestudy1body ul li {
+    text-align: center;
+    list-style-type: none;
+    color: #4A4A4A;
+  }
 
-#summary_case {
-  padding: 20px 16%;
-}
+  #summary_case {
+    padding: 20px 16%;
+  }
 
-#summary_case img {
-  width: 100%;
-}
+  #summary_case img {
+    width: 100%;
+  }
 
 
   /* FOOTER */
@@ -364,7 +364,6 @@ html, body{
   }
 
 
-
  /* BUTTONS */
  .btn {
    text-decoration: none;
@@ -374,7 +373,6 @@ html, body{
    border-radius: 4px;
    border: 1px solid #4A4A4A;
    color:#4A4A4A;
-
  }
 
 

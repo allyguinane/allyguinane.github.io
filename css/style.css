@@ -266,6 +266,10 @@ html, body{
   .contact h4 {
     text-align: center;
   }
+  
+  .talkforms {
+    margin: 0 0 60px 0;
+  }
 
   form {
     text-align: center;
@@ -277,9 +281,41 @@ html, body{
     margin: 10px 0 0 0;
 
   }
-  .talkforms {
-    margin: 0 0 60px 0;
+  form textarea {
+    padding: 30px 14%;
   }
+
+  form label {
+    margin: 10px;
+    font-family: bree serif;
+    color: #4A4A4A;
+  }
+  form .message {
+    margin-bottom: 10px;
+  }
+
+
+
+
+/*Case Study 1*/
+
+.projectlist {
+  text-align: center;
+  list-style-type: none;
+  font-family: lustria;
+  color: #4A4A4A;
+}
+
+.casestudy1body {
+  text-align: center;
+}
+
+.casestudy1body ul li {
+  text-align: center;
+  list-style-type: none;
+  color: #4A4A4A;
+}
+
 
 
   /* FOOTER */
@@ -319,7 +355,6 @@ html, body{
 
 
 
-
  /* BUTTONS */
  .btn {
    text-decoration: none;
@@ -331,3 +366,10 @@ html, body{
    color:#4A4A4A;
 
  }
+
+
+
+
+
+
+

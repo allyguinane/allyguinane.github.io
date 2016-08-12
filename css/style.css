@@ -298,24 +298,30 @@ html, body{
 
 
 /*Case Study 1*/
+#header_case {
+  background: #FFFCD5;
+  padding: 20px;
+}
 
 .projectlist {
   text-align: center;
   list-style-type: none;
   font-family: lustria;
   color: #4A4A4A;
+  background-color: #FFFCD5;
 }
-
 .casestudy1body {
   text-align: center;
 }
-
 .casestudy1body ul li {
   text-align: center;
   list-style-type: none;
   color: #4A4A4A;
 }
 
+#summary_case {
+  padding: 20px 10% 20px 10%;
+}
 
 
   /* FOOTER */

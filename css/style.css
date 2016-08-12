@@ -295,14 +295,19 @@ html, body{
   }
 
 
+/*HORIZONTAL RULE*/
+hr.style6 {
+  background-color: #fff;
+  border-top: 2px dotted #8c8b8b;
+  float: center;
+}
 
 
-/*Case Study 1*/
+/*CASE STUDY 1*/
   #header_case {
     background: #FFFCD5;
     padding: 20px;
   }
-
   .projectlist {
     text-align: center;
     list-style-type: none;
@@ -310,30 +315,30 @@ html, body{
     color: #4A4A4A;
     background-color: #FFFCD5;
   }
-  .casestudy1body {
-    text-align: center;
-  }
-  .casestudy1body ul li {
-    text-align: center;
-    list-style-type: none;
-    color: #4A4A4A;
-  }
 
   #summary_case {
     padding: 20px 16%;
+    text-align: center;
+    color: #4A4A4A;
   }
-
   #summary_case img {
     width: 100%;
   }
-
-  #summary_case h3 {
-    padding: 20px 0 0 0;
+  #summary_case ul li {
+    list-style-type: none;
   }
-
+  #summary_case h2 {
+    padding: 0 0 0 0;
+    margin-top: 40px;
+  }
   #summary_case .challenge {
     background-color: #FFFCD5;
-    margin: 0 0 0 0;
+    padding: 50px;
+  }
+
+  #summary_case .results {
+    background-color: #FFFCD5;
+    padding: 50px;
   }
 
 

@@ -320,7 +320,11 @@ html, body{
 }
 
 #summary_case {
-  padding: 20px 10% 20px 10%;
+  padding: 20px 16%;
+}
+
+#summary_case img {
+  width: 100%;
 }
 
 

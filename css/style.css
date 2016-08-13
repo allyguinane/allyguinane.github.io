@@ -291,7 +291,7 @@ html, body{
   form .message {
     margin-bottom: 10px;
   }
-  
+
 
 /*HORIZONTAL RULE*/
 hr.style6 {
@@ -303,15 +303,14 @@ hr.style6 {
 
 /*CASE STUDY 1*/
   #header_case {
-    background: #FFFCD5;
-    padding: 20px;
+    background: #9B9B9B;
+    padding: 20px 0 80px 0;
+    color: #FFF;
   }
   .projectlist {
     text-align: center;
     list-style-type: none;
     font-family: lustria;
-    color: #4A4A4A;
-    background-color: #FFFCD5;
   }
 
   #summary_case {
@@ -321,25 +320,105 @@ hr.style6 {
   }
   #summary_case img {
     width: 100%;
-    margin-bottom: 20px;
+    margin: 10px 40px 40px 40px;
+    box-shadow: 0px 0px 5px #888888;
+    border-radius: 4px;
   }
   #summary_case ul li {
     list-style-type: none;
   }
   #summary_case h2 {
-    padding: 0 0 0 0;
+    padding: 40px 0 0 0;
     margin-top: 40px;
   }
-  #summary_case .challenge {
-    background-color: #FFFCD5;
-    padding: 50px;
-  }
-  #summary_case .solution h4 {
+
+
+
+
+/*CASE STUDY 1 - CHALLENGE*/
+  .challenge {
+   color:#4A4A4A;
+   background-color: #FFFCD5;
+   padding: 40px;
+   text-align: center;
+   /*Note out for now
+   background: url("../images/bubbleKid.jpeg"); top center no-repeat;
+   background-size: cover;
+   opacity: 0.6;
+   */
+ }
+  .challenge h2{
+    padding: 0px 0 0 0;
+    margin-top: 40px;
   }
 
-  #summary_case .results {
+/*CASE STUDY 1 - UI DESIGN*/
+  .uidesign {
+    text-align: center;
+    background-color: #E2E2E2;
+  }
+  .uidesign h2{
+    padding: 40px 0 0 0;
+    margin-top: 0px;
+  }
+  .uidesign h5 {
+     margin-bottom: 10px;
+  }
+  .uidesign img {
+    margin: 10px 40px 40px 40px;
+    box-shadow: 0px 0px 5px #888888;
+    border-radius: 4px;
+    padding: 20px 0 20px 0;
+    background-color: #FFF;
+  }
+
+
+/*CASE STUDY 1 - SOLUTION*/
+  #solution {
+    text-align: center;
+    padding: 0 14% 0 14%;
+  }
+  #solution ul {
+    padding: 0 0 20px 0;
+  }
+  #solution ul li {
+    list-style-type: none;
+    font-family: Lato;
+  }
+  #solution h2{
+    padding: 40px 0 0 0;
+    margin-top: 0px;
+  }
+  #solution h5 {
+     margin-bottom: 0px;
+  }
+  #solution img {
+    margin: 10px 40px 40px 40px;
+    box-shadow: 0px 0px 5px #888888;
+    border-radius: 4px;
+    padding: 0px;
+  }
+  #solution .usertesting img {
+    width: 75%;
+  }
+
+
+
+/*CASE STUDY 1 - RESULTS*/
+  #results {
+    text-align: center;
+    padding: 0 14% 0 14%;
     background-color: #FFFCD5;
     padding: 50px;
+  }
+  #results h2{
+    padding: 40px 0 0 0;
+    margin-top: 0px;
+  }
+  #results p {
+    padding: 0 14% 0 14%;
+  }
+  #results a {
     text-decoration: none;
     text-decoration-line: none;
   }

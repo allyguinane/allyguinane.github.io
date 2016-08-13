@@ -182,8 +182,9 @@ html, body{
     float: left;
    }
     header nav h4 {
-    margin: 10px 13% 20px 13%;
+    margin: 0px 13% 80px 13%;
     color: #9B9B9B; 
+    float: left;
    }
     header nav h4 a {
     color: #4A4A4A;
@@ -290,7 +291,7 @@ html, body{
   form .message {
     margin-bottom: 10px;
   }
-
+  
 
 /*HORIZONTAL RULE*/
 hr.style6 {

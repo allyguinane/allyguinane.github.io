@@ -423,6 +423,20 @@ hr.style6 {
     text-decoration-line: none;
   }
 
+/*CASE STUDY 2*/
+  .uidesign img  {
+    width: 60%;
+  }
+  .userflows img {
+    width: 80%;
+  }
+  .sitemaps img {
+    width: 85%;
+  }
+  .prototyping img {
+    width: 70%;
+  }
+
 
   /* FOOTER */
   .footer {
@@ -455,6 +469,7 @@ hr.style6 {
   .footer ul li a{
     color: white;
     text-decoration: none;
+    text-decoration-color: #FFFFFF;
     text-align: center;
   }
   .navfoot li {

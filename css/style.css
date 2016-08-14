@@ -339,7 +339,7 @@ hr.style6 {
   .challenge {
    color:#4A4A4A;
    background-color: #FFFCD5;
-   padding: 40px;
+   padding: 40px 14% 40px 14%;
    text-align: center;
    /*Note out for now
    background: url("../images/bubbleKid.jpeg"); top center no-repeat;
@@ -397,6 +397,7 @@ hr.style6 {
     box-shadow: 0px 0px 5px #888888;
     border-radius: 4px;
     padding: 0px;
+    width:100%;
   }
   #solution .usertesting img {
     width: 75%;

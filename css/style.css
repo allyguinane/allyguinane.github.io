@@ -288,6 +288,9 @@ html, body{
     font-family: bree serif;
     color: #4A4A4A;
   }
+  form input {
+    margin-top: 10px;
+  }
   form .message {
     margin-bottom: 10px;
   }

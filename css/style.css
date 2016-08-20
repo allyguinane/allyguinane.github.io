@@ -442,6 +442,33 @@ hr.style6 {
   }
 
 
+/*CASE STUDY 3*/
+  .challenge-bullets {
+    list-style-type: none;
+  }
+
+  #usertesting-Treasurely {
+    text-align: center;
+    padding: 0 14% 0 14%;
+  }
+  .usertesting-Treasurely a img {
+    margin: 0px 40px 0px 40px;
+    box shadow: none;
+    padding: 0px;
+    width: 85%;
+  }
+  #usertesting-Treasurely h5{
+     margin-bottom: 0px;
+  }
+  #usertesting-Treasurely p {
+    padding: 0 14% 0 14%;
+  }
+  #usertesting-Treasurely a {
+    text-decoration: none;
+    text-decoration-line: none;
+  }
+
+
   /* FOOTER */
   .footer {
    color:#FFFFFF;

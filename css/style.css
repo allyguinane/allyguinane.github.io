@@ -323,7 +323,8 @@ hr.style6 {
   }
   #summary_case img {
     width: 100%;
-    margin: 10px 40px 40px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     box-shadow: 0px 0px 5px #888888;
     border-radius: 4px;
   }
@@ -386,7 +387,8 @@ hr.style6 {
   }
   #solution ul li {
     list-style-type: none;
-    font-family: Lato;
+    font-family: Lato; 
+    font-weight: lighter;
   }
   #solution h2{
     padding: 40px 0 0 0;
@@ -395,12 +397,16 @@ hr.style6 {
   #solution h5 {
      margin-bottom: 0px;
   }
+  #solution .casestudy1-3 {
+    width: 85%;
+  }
   #solution img {
-    margin: 10px 40px 40px 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
     box-shadow: 0px 0px 5px #888888;
     border-radius: 4px;
     padding: 0px;
-    width:100%;
+    width:85%;
   }
   #solution .usertesting img {
     width: 75%;
@@ -410,8 +416,6 @@ hr.style6 {
     color: #4A4A4A;
     font-weight: bold;
   }
-
-
 
 
 /*CASE STUDY 1 - RESULTS*/

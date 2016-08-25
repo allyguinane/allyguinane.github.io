@@ -405,6 +405,12 @@ hr.style6 {
   #solution .usertesting img {
     width: 75%;
   }
+  #solution p a {  
+    text-decoration: none;
+    color: #4A4A4A;
+    font-weight: bold;
+  }
+
 
 
 
@@ -425,6 +431,11 @@ hr.style6 {
   #results a {
     text-decoration: none;
     text-decoration-line: none;
+  }
+  #results p a {
+    text-decoration: none;
+    color: #4A4A4A;
+    font-weight: bold;
   }
 
 /*CASE STUDY 2*/
@@ -479,6 +490,13 @@ hr.style6 {
   .footer p {
     margin: 40px 0 40px 0;
     text-align: center;
+  } 
+  .footer p a {
+   margin: 40px 0 40px 0;
+   text-align: center;
+   text-decoration: none;
+   color: #FFFFFF;
+    
   }
   .footer .one-third {
     margin-left: 2%;

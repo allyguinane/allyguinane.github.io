@@ -553,7 +553,7 @@ hr.style6 {
   }
   .footer ul li {
     display: inline-block;
-    margin: 40px 0 40px 20px;
+    margin: 40px 0 40px 0px;
   }
   .footer ul li a{
     color: white;
@@ -563,8 +563,11 @@ hr.style6 {
   }
   .navfoot li {
     padding-left: 10px;
+    padding-right: 10px;
   }
-
+  .icons li {
+    padding-right: 10px;
+    padding-left: 10px;
 
  /* BUTTONS */
  .btn {

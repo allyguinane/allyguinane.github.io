@@ -253,7 +253,7 @@ html, body{
   .contact img {
     display: block;
     margin:auto;
-    width:70%;
+    width:50%;
   }
   .contact h2 {
     margin-top: 0px;
@@ -281,12 +281,17 @@ html, body{
   }
   form textarea {
     padding: 30px 14%;
+    border-radius: 4px;
+    border-color: #E2E2E2;
   }
 
   form label {
     margin: 10px;
     font-family: bree serif;
     color: #4A4A4A;
+  }
+  form label .name {
+    margin: 0 10px 0 0;
   }
   form input {
     margin-top: 10px;

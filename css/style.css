@@ -41,23 +41,18 @@ html, body{
  .mobile-show {
   display: block !important;
  }
-
  .mobile-hide {
   display: none !important;
  }
 
  @media (min-width: 992px) { 
-
-    .mobile-show {
-      display: none !important;
-    }
-
-
-    .mobile-hide {
-      display: block !important;
+  .mobile-show {
+  display: none !important;
+ }
+  .mobile-hide {
+  display: block !important;
     }
  }
-
 
 
   /* GRID */
@@ -151,36 +146,36 @@ html, body{
  }
 
 
-  header nav .one-half img{
-    display: block;
-    margin: auto;
-    width: 100%;
+ header nav .one-half img{
+   display: block;
+   margin: auto;
+   width: 100%;
  }
-  header nav .site-logo {
-    display: block;
-    margin: auto;
-    width: 15%;
-    padding: 100px 0 20px 0;
-  }
+ header nav .site-logo {
+   display: block;
+   margin: auto;
+   width: 15%;
+   padding: 100px 0 20px 0;
+ }
 
-  header nav ul .btn-outline {
-    text-decoration: none;
-    list-style-type: none;
-    display: inline-block;
-    text-align: center;
-    padding:10px 15px;
-    border:1px solid #4A4A4A;
-    border-radius: 4px;
+ header nav ul .btn-outline {
+   text-decoration: none;
+   list-style-type: none;
+   display: inline-block;
+   text-align: center;
+   padding:10px 15px;
+   border:1px solid #4A4A4A;
+   border-radius: 4px;
  }
   
-    header nav h3 {
-    margin: 0 13% 0 13%;
-   }
-    header nav .herobuttons ul {
-    margin: 0 13% 0 0 ;
-    padding: 10px 13% 10px 13%;
-    float: left;
-   }
+ header nav h3 {
+   margin: 0 13% 0 13%;
+ }
+ header nav .herobuttons ul {
+   margin: 0 13% 0 0 ;
+   padding: 10px 13% 10px 13%;
+   float: left;
+ }
     header nav h4 {
     margin: 0px 13% 80px 13%;
     color: #9B9B9B; 
@@ -199,7 +194,7 @@ html, body{
   .uxwork ul{
     list-style-type: none;
   }
-   .uxwork .container {
+  .uxwork .container {
     margin-bottom: 60px
   }
   .uxwork h3 {
@@ -208,12 +203,34 @@ html, body{
   .uxwork ul li p {
     padding: 0 0 10px 0;
     margin: 0px 20% 0px 0;
-
   }
-  .uxwork ul li a{
+  .uxwork ul li a.btn {
     margin: 10px 20% 40px 0;
     display: block;
+  }
 
+  li.btn-outline {
+    text-decoration: none;
+    list-style-type: none;
+    display:inline-block;
+    text-align: center;
+    padding:10px 15px;
+    border:1px solid #4A4A4A;
+    border-radius: 4px;
+    font-family: Bree Serif;
+    margin:10px 20px 10px 0;
+    color: #9B9B9B;
+  }
+  
+  li.btn-outline:hover {
+   background:#FFFFFF;
+  }
+  li.btn-outline:hover > a {
+   color:#4A4A4A;
+ }
+  .uxwork ul li a.btn {
+   color:#9B9B9B;
+   text-decoration: none;
   }
 
 
@@ -275,9 +292,8 @@ html, body{
   form button {
     background-color: #FFFFFF;
     border-radius: 4px;
-    border-color: none;
+    border-color: white;
     margin: 10px 0 0 0;
-
 
   }
   form textarea {
@@ -292,7 +308,6 @@ html, body{
     font-family: bree serif;
     color: #4A4A4A;
   }
-
 
   form .message {
     margin-bottom: 10px;

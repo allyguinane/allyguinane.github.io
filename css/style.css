@@ -139,7 +139,7 @@ li.btn-outline {
  .topnav {
     text-decoration: none;
     text-align: right;
-    background: black;
+    background: #9B9B9B;
     font-family: Bree serif;
     padding: 1px 13% 1px 0;
  }
@@ -154,13 +154,11 @@ li.btn-outline {
     text-decoration: none;
     color: #FFFFFF;
  }
-   header {
+  header {
    color:#4A4A4A;
    background: #FFFCD5;
    background-image: ;
  }
-
-
  header nav {
    padding:0;
  }
@@ -168,7 +166,6 @@ li.btn-outline {
    display:inline;
    margin: 20px 0 20px 50%;
  }
-
  header nav ul > li {
    list-style-type: none;
    display: inline-block;
@@ -192,7 +189,6 @@ li.btn-outline {
  header nav ul > li.btn-outline:hover > a {
    color:#4A4A4A;
  }
-
 
  header nav .one-half img{
    display: block;
@@ -388,6 +384,25 @@ hr.style6 {
 
 
 /*CASE STUDY 1*/
+  .topnavcasestudies {
+    text-decoration: none;
+    text-align: right;
+    background: #9B9B9B;
+    font-family: Bree serif;
+    padding: 1px 13% 1px 0;
+ }
+ .topnavcasestudies li {
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+ } 
+ .topnavcasestudies a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+ }
+
   #header_case {
     background: #FFFCD5;
     padding: 5px 0 30px 0;

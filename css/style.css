@@ -292,9 +292,19 @@ li.btn-outline {
     list-style-type: none;
   }
   .aboutme ul li img{
-    padding-bottom: 40px;
+    padding-bottom: 0px;
     width: 100%;
     max-width: 538px;
+  }
+  .aboutme h6 {
+    text-decoration: none;
+    color: #9B9B9B;
+    padding-bottom: 10px;
+  
+  } 
+  .aboutme h6 a {
+    text-decoration: none;
+    text-decoration-color: #9B9B9B;
   }
 
 

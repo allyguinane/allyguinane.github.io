@@ -105,14 +105,62 @@ html, body{
    }
  }
 
+/* BUTTONS */
+a.btn-main {
+   color:#9B9B9B;
+   text-decoration: none;
+   display: inline-block;
+   margin: 10px 0 20px 0;
+   background-color: transparent;
+   text-align: center;
+   padding: 10px 15px;
+   border: 1px solid #4A4A4A;
+   border-radius: 4px;
+   font-family: Bree Serif;
+
+ }
+
+li.btn-outline {
+   padding:10px 15px;
+   border:1px solid #4A4A4A;
+   border-radius: 4px;
+ }
+ li.btn-outline:hover {
+   background:#FFFFFF;
+ }
+ li.btn-outline:hover > a {
+   color:#4A4A4A;
+ }
+
+
 
 
 /* HEADER-HERO */
- header {
+ .topnav {
+    text-decoration: none;
+    text-align: right;
+    background: black;
+    font-family: Bree serif;
+    padding: 1px 13% 1px 0;
+ }
+ .topnav li {
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+ } 
+ .topnav a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+ }
+   header {
    color:#4A4A4A;
    background: #FFFCD5;
    background-image: ;
  }
+
+
  header nav {
    padding:0;
  }
@@ -204,6 +252,7 @@ html, body{
     padding: 0 0 10px 0;
     margin: 0px 20% 0px 0;
   }
+  /*
   .uxwork ul li a.btn {
     margin: 10px 20% 40px 0;
     display: block;
@@ -232,6 +281,7 @@ html, body{
    color:#9B9B9B;
    text-decoration: none;
   }
+  */
 
 
 
@@ -290,12 +340,18 @@ html, body{
     margin-right: 32%;
   }
   form button {
+    color:#9B9B9B;
     background-color: #FFFFFF;
+    margin: 20px 0 20px 0;
+    font-family: Bree Serif;
+    border: 1px solid #4A4A4A;
     border-radius: 4px;
-    border-color: white;
-    margin: 10px 0 0 0;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 30px;
 
   }
+
   form textarea {
     border-radius: 4px;
     border-color: #E2E2E2;
@@ -594,10 +650,3 @@ hr.style6 {
    border: 1px solid #4A4A4A;
    color:#4A4A4A;
  }
-
-
-
-
-
-
-

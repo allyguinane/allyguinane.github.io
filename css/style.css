@@ -304,9 +304,9 @@ li.btn-outline {
   } 
   .aboutme h6 a {
     text-decoration: none;
-    text-decoration-color: #9B9B9B;
+    text-align: left;
+    color: #9B9B9B;
   }
-
 
 
   /* CONTACT */

@@ -27,12 +27,13 @@ html, body{
  }
  h6 {
    font-family: "Lustria", Helvetica, Arial, sans-serif;
-   margin: 10px 0px 10px 0px; 
+   margin: 10px 0px 10px 0px;
+   font-size: 11px; 
  }
  
  p {
    font-size:18px;
-   line-height: 22px;
+   line-height: 23px;
    font-weight: 100;
    margin: 10px 0 20px 0;
  }
